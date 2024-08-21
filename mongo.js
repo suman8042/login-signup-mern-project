@@ -8,6 +8,7 @@ mongoose.connect("mongodb://0.0.0.0:27017/react-login-tut")
 })
 
 
+
 const newSchema=new mongoose.Schema({
     email:{
         type:String,
